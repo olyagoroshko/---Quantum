@@ -1,5 +1,6 @@
-$color: green;
+//Base
+@import "./base/base";
 
-body{
-    background-color: $color;
-}
+
+//Blocks
+@import "./blocks/header";
