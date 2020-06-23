@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../scss/main.scss"
+	],
+	"sourcesContent": [
+		"$color: green;\r\n\r\nbody{\r\n    background-color: $color;\r\n}"
+	],
+	"names": [],
+	"mappings": ";;AAEA,AAAA,IAAI,CAAA;EACA,gBAAgB,EAHZ,KAAK;CAIZ"
+}
