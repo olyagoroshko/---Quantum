@@ -8,16 +8,16 @@
         margin-right: 35px;
     }
 
-    .icon-svg{
+    svg{
         fill: gray;
     }
 
     &:hover{
-        color: #1875f0;
+        color: $blue;
         text-decoration: none;
 
-        .icon-svg{
-            fill: #1875f0;
+        svg{
+            fill: $blue;
         }
     }
 }
@@ -36,7 +36,7 @@
     content: "";
     width: 6px;
     height: 6px;
-    background-color: #1875f0;
+    background-color: $blue;
     border-radius: 50%;
 }
 
