@@ -1,0 +1,84 @@
+.owl-theme .owl-nav {
+    margin-top: 10px;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent; }
+    .owl-theme .owl-nav [class*='owl-'] {
+      color: #FFF;
+      font-size: 14px;
+      margin: 5px;
+      padding: 4px 7px;
+      background: #D6D6D6;
+      display: inline-block;
+      cursor: pointer;
+      border-radius: 3px; }
+      .owl-theme .owl-nav [class*='owl-']:hover {
+        color: #FFF;
+        text-decoration: none; }
+    .owl-theme .owl-nav .disabled {
+      opacity: 0.5;
+      cursor: default;
+    }
+
+    .owl-theme .owl-nav{
+      button.owl-prev,
+      button.owl-next{
+        display: block;
+        width: 60px;
+        height: 60px;
+        // background-color: rebeccapurple;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        border-radius: 50%;
+        border: solid 2px #ffffff;
+        background: transparent;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 20px 21px;
+      }
+
+      button.owl-prev{
+        left: 60px;
+        background-image: url("./../img/carousel-icon/arrow-icon-left.svg");
+      }
+
+      button.owl-next{
+        right: 60px;
+        background-image: url("./../img/carousel-icon/arrow-icon-right.svg");
+      }
+    }
+
+
+  .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 10px; }
+
+  .owl-theme .owl-dots {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 30px;
+  }
+    .owl-theme .owl-dots .owl-dot {
+      display: inline-block;
+      zoom: 1;
+      *display: inline;
+      outline: none;
+      border: 0;
+      background: transparent;
+    }
+      .owl-theme .owl-dots .owl-dot span {
+        margin: 15px 15px;
+        display: block;
+        -webkit-backface-visibility: visible;
+        transition: opacity 200ms ease;
+        width: 68px;
+        height: 2px;
+        background-color: #ffffff;
+        opacity: 0.3;
+
+      }
+      .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+        opacity: 1;
+      }
