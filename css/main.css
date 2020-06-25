@@ -1,4 +1,11 @@
 @charset "UTF-8";
+/* line 1, ../../Проекты/верстки/Интернет-магазин Quantum/scss/mixins/_card.scss */
+.navigation {
+  border-radius: 6px;
+  box-shadow: 0px 3px 10px 0 rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+}
+
 /* line 1, ../../Проекты/верстки/Интернет-магазин Quantum/scss/base/_base.scss */
 * {
   box-sizing: border-box;
@@ -244,30 +251,32 @@ h1, h2, h3, h4, h5, h6, p {
   align-items: center;
   text-decoration: none;
   color: #808080;
+  transition: 0.2s color ease-in;
 }
 
-/* line 7, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-link.scss */
+/* line 8, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-link.scss */
 .header-link:not(:last-child) {
   margin-right: 35px;
 }
 
-/* line 11, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-link.scss */
+/* line 12, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-link.scss */
 .header-link svg {
   fill: gray;
+  transition: 0.2s fill ease-in;
 }
 
-/* line 15, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-link.scss */
+/* line 17, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-link.scss */
 .header-link:hover {
   color: #1875f0;
   text-decoration: none;
 }
 
-/* line 19, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-link.scss */
+/* line 21, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-link.scss */
 .header-link:hover svg {
   fill: #1875f0;
 }
 
-/* line 25, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-link.scss */
+/* line 28, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-link.scss */
 .header-link__icon {
   position: relative;
   width: 21px;
@@ -275,7 +284,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin-right: 18px;
 }
 
-/* line 32, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-link.scss */
+/* line 35, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-link.scss */
 .header-link--notify .header-link__icon::after {
   position: absolute;
   top: -8px;
@@ -287,7 +296,7 @@ h1, h2, h3, h4, h5, h6, p {
   border-radius: 50%;
 }
 
-/* line 43, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-link.scss */
+/* line 46, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-link.scss */
 .header-link__text {
   font-size: 14px;
   font-weight: 500;
@@ -326,25 +335,26 @@ h1, h2, h3, h4, h5, h6, p {
   line-height: 1;
   color: #808080;
   text-decoration: none;
+  transition: 0.2s color ease-in;
 }
 
-/* line 32, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-nav.scss */
+/* line 34, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-nav.scss */
 .header-nav__link:not(:last-child) {
   margin-right: 35px;
 }
 
-/* line 36, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-nav.scss */
+/* line 38, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-nav.scss */
 .header-nav__link:hover {
   color: #1875f0;
   text-decoration: none;
 }
 
-/* line 42, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-nav.scss */
+/* line 44, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-nav.scss */
 .header-nav__select {
   display: flex;
 }
 
-/* line 47, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-nav.scss */
+/* line 49, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-nav.scss */
 .header-nav__select-item:not(:last-child) {
   border-right: 2px solid #f5f5f5;
 }
@@ -357,30 +367,32 @@ h1, h2, h3, h4, h5, h6, p {
   text-decoration: none;
   height: 100%;
   color: #808080;
+  transition: 0.2s color ease-in;
 }
 
-/* line 9, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-mega-menu-link.scss */
+/* line 11, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-mega-menu-link.scss */
 .header-mega-menu-link:hover {
   color: #1875f0;
   text-decoration: none;
 }
 
-/* line 13, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-mega-menu-link.scss */
+/* line 15, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-mega-menu-link.scss */
 .header-mega-menu-link:hover svg {
   fill: #1875f0;
 }
 
-/* line 19, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-mega-menu-link.scss */
+/* line 21, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-mega-menu-link.scss */
 .header-mega-menu-link__icon {
   margin-right: 22px;
 }
 
-/* line 22, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-mega-menu-link.scss */
+/* line 24, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-mega-menu-link.scss */
 .header-mega-menu-link__icon svg {
   fill: gray;
+  transition: 0.2s fill ease-in;
 }
 
-/* line 29, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-mega-menu-link.scss */
+/* line 32, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_header-mega-menu-link.scss */
 .header-mega-menu-link__text {
   font-size: 14px;
   font-weight: 500;
@@ -400,7 +412,7 @@ h1, h2, h3, h4, h5, h6, p {
   padding-right: 28px;
 }
 
-/* line 16, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_nav-dropdown.scss */
+/* line 14, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_nav-dropdown.scss */
 .nav-dropdown__title {
   position: relative;
   width: auto;
@@ -409,9 +421,10 @@ h1, h2, h3, h4, h5, h6, p {
   line-height: 1;
   color: #b3b3b3;
   padding-right: 20px;
+  transition: 0.2s color ease-in;
 }
 
-/* line 26, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_nav-dropdown.scss */
+/* line 25, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_nav-dropdown.scss */
 .nav-dropdown__title-icon {
   position: absolute;
   top: 50%;
@@ -424,9 +437,10 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 0;
 }
 
-/* line 38, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_nav-dropdown.scss */
+/* line 37, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_nav-dropdown.scss */
 .nav-dropdown__title-icon svg {
   fill: #b3b3b3;
+  transition: 0.2s fill ease-in;
 }
 
 /* line 43, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_nav-dropdown.scss */
@@ -628,6 +642,11 @@ a.nav-dropdown__dropdown-item:hover {
   opacity: 1;
 }
 
+/* line 1, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_promo-section.scss */
+.promo-section {
+  margin-bottom: 30px;
+}
+
 /* line 5, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_promo-section.scss */
 .promo-section__row {
   display: flex;
@@ -656,15 +675,16 @@ a.nav-dropdown__dropdown-item:hover {
   border-radius: 6px;
   box-shadow: 0px 3px 10px 0 rgba(0, 0, 0, 0.08);
   background-color: #ffffff;
-  transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in, transform 0.2s ease-in;
 }
 
 /* line 18, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_promo-section-item.scss */
 .promo-section-item:hover {
+  transform: translateY(-5px);
   box-shadow: 0px 3px 25px 0 rgba(0, 0, 0, 0.33);
 }
 
-/* line 23, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_promo-section-item.scss */
+/* line 24, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_promo-section-item.scss */
 .promo-section-item__title {
   font-size: 20px;
   font-weight: 500;
@@ -674,7 +694,7 @@ a.nav-dropdown__dropdown-item:hover {
   text-align: center;
 }
 
-/* line 32, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_promo-section-item.scss */
+/* line 33, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_promo-section-item.scss */
 .promo-section-item__subtitle {
   font-size: 14px;
   font-weight: 500;
@@ -683,7 +703,7 @@ a.nav-dropdown__dropdown-item:hover {
   margin-bottom: 40px;
 }
 
-/* line 40, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_promo-section-item.scss */
+/* line 41, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_promo-section-item.scss */
 .promo-section-item--background-img {
   justify-content: flex-end;
   background-position: center;
@@ -691,28 +711,28 @@ a.nav-dropdown__dropdown-item:hover {
   padding-bottom: 45px;
 }
 
-/* line 46, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_promo-section-item.scss */
+/* line 47, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_promo-section-item.scss */
 .promo-section-item--background-img .promo-section-item__title {
   color: #fff;
 }
 
-/* line 50, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_promo-section-item.scss */
+/* line 51, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_promo-section-item.scss */
 .promo-section-item--background-img .promo-section-item__subtitle {
   margin-bottom: 0;
   color: rgba(255, 255, 255, 0.3);
 }
 
-/* line 56, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_promo-section-item.scss */
+/* line 57, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_promo-section-item.scss */
 .promo-section-item--background-img-watch {
   background-image: url(./../img/promo/watch.jpg);
 }
 
-/* line 62, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_promo-section-item.scss */
+/* line 63, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_promo-section-item.scss */
 .promo-section-item-link-wrapper--column:not(:last-child) {
   margin-bottom: 30px;
 }
 
-/* line 67, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_promo-section-item.scss */
+/* line 68, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_promo-section-item.scss */
 .promo-section-item--small {
   flex-direction: row;
   align-items: center;
@@ -721,7 +741,7 @@ a.nav-dropdown__dropdown-item:hover {
   text-align: left;
 }
 
-/* line 74, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_promo-section-item.scss */
+/* line 75, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_promo-section-item.scss */
 .promo-section-item--small .promo-section-item__title {
   font-size: 14px;
   font-weight: 500;
@@ -732,7 +752,7 @@ a.nav-dropdown__dropdown-item:hover {
   margin-right: 15px;
 }
 
-/* line 85, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_promo-section-item.scss */
+/* line 86, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_promo-section-item.scss */
 .promo-section-item__img-cell {
   flex-shrink: 0;
   display: flex;
@@ -742,10 +762,85 @@ a.nav-dropdown__dropdown-item:hover {
   margin-right: 25px;
 }
 
-/* line 94, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_promo-section-item.scss */
+/* line 95, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_promo-section-item.scss */
 .promo-section-item__title-cell {
   display: flex;
   align-items: center;
+}
+
+/* line 5, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_main.scss */
+.main__row {
+  display: flex;
+}
+
+/* line 9, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_main.scss */
+.main__column-left {
+  width: 255px;
+  flex-shrink: 0;
+  margin-right: 30px;
+}
+
+/* line 5, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_navigation.scss */
+.navigation__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 11, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_navigation.scss */
+.navigation__item {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  border-bottom: 2px solid #f5f5f5;
+  color: #808080;
+  cursor: pointer;
+  transition: 0.2s color ease-in;
+}
+
+/* line 21, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_navigation.scss */
+.navigation__item:hover {
+  color: #1875f0;
+}
+
+/* line 24, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_navigation.scss */
+.navigation__item:hover svg {
+  fill: #1875f0;
+}
+
+/* line 30, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_navigation.scss */
+.navigation__item-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 56px;
+  margin-right: 1px;
+}
+
+/* line 38, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_navigation.scss */
+.navigation__item-icon svg {
+  fill: #ccc;
+  transition: 0.2s fill ease-in;
+}
+
+/* line 44, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_navigation.scss */
+.navigation__item-title {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+/* line 50, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_navigation.scss */
+.navigation__item-arrow {
+  margin-left: auto;
+  padding-right: 20px;
+}
+
+/* line 54, ../../Проекты/верстки/Интернет-магазин Quantum/scss/blocks/_navigation.scss */
+.navigation__item-arrow svg {
+  fill: #ccc;
+  transition: 0.2s fill ease-in;
 }
 
 /*# sourceMappingURL=main.css.map */

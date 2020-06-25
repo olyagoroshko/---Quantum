@@ -9,8 +9,6 @@
 
     padding-left: 28px;
     padding-right: 28px;
-
-
 }
 
 .nav-dropdown__title {
@@ -21,6 +19,7 @@
     line-height: 1;
     color: #b3b3b3;
     padding-right: 20px;
+    transition: 0.2s color ease-in;
 }
 
 .nav-dropdown__title-icon{
@@ -37,6 +36,7 @@
 
     svg{
         fill: #b3b3b3;
+        transition: 0.2s fill ease-in;
     }
 }
 

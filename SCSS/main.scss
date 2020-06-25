@@ -1,7 +1,9 @@
+//Mixins
+@import "./mixins/card";
+
 //Base
 @import "./base/variables";
 @import "./base/base";
-
 
 //Blocks
 @import "./blocks/header";
@@ -14,6 +16,8 @@
 @import "./blocks/carousel-theme";
 @import "./blocks/promo-section";
 @import "./blocks/promo-section-item";
+@import "./blocks/main";
+@import "./blocks/navigation";
 
 
 
